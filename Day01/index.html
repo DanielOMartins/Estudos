@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Calculadora</h1>
+        </div>
+    </header>
+    <section class="calculadora">
+        <div class="container">
+            <div class="calculadora-display">
+                <p class="calculadora-display__num" data-display>0</p>
+            </div>
+            <div class="calculadora-numpad">
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num7>7</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num8>8</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num9>9</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-mult>x</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num4>4</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num5>5</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num6>6</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-div>/</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num1>1</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num2>2</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-num3>3</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-soma>+</button>
+                </div>
+                <div class="calculadora-numpad__box num-0">
+                    <button class="calculadora-numpad__char" data-num0>0</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-clear>C</button>
+                </div>
+                <div class="calculadora-numpad__box">
+                    <button class="calculadora-numpad__char" data-sub>-</button>
+                </div>
+            </div>
+            <div class="calculadora-enter">
+                <button class="calculadora-enter__button" data-resultado>Enter</button>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/resultado.js"></script>
+</body>
+</html>
